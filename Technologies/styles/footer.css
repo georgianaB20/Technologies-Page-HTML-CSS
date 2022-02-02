@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "flamabook";
+  src: url("Flama-Book-webfont.woff2");
+}
+
+@font-face {
+  font-family: "flamabold";
+  src: url("Flama-Bold-webfont.woff2");
+}
+
+.delimiter {
+  background-color: #59595b;
+}
+/*# sourceMappingURL=footer.css.map */

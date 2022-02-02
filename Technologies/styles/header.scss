@@ -1,0 +1,39 @@
+@import "variables";
+main{
+    margin-top:5rem;
+}
+
+.fixed-top{
+    position:fixed;
+    top:0;
+    background-color: $accentTextColor;
+    z-index: 2;
+}
+
+.nav-container{
+    font-family: "flamabook";
+    font-size:1.3rem;
+    color:$lightGrey;
+    padding-bottom:1rem;
+    padding-top:2rem;
+    padding-left:20vw;
+    padding-right:20vw;
+
+    .logo-img{
+        width:8rem;
+        height:4rem;
+        padding:0;
+    }
+
+    a{
+        text-decoration: none;
+        color:$lightGrey;
+        padding-left:1rem;
+    }
+    a:hover{
+        color:$exnGreen;
+    }
+    .active-link{
+        color:$darkGrey;
+    }
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "flamabook";
+  src: url("Flama-Book-webfont.woff2");
+}
+
+@font-face {
+  font-family: "flamabold";
+  src: url("Flama-Bold-webfont.woff2");
+}
+
+main {
+  margin-top: 5rem;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+}
+
+.nav-container {
+  font-family: "flamabook";
+  font-size: 1.3rem;
+  color: #8b8b8d;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.nav-container .logo-img {
+  width: 8rem;
+  height: 4rem;
+  padding: 0;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #8b8b8d;
+  padding-left: 1rem;
+}
+
+.nav-container a:hover {
+  color: #7cba00;
+}
+
+.nav-container .active-link {
+  color: #59595b;
+}
+/*# sourceMappingURL=header.css.map */

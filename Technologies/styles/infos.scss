@@ -1,0 +1,39 @@
+@import "variables";
+
+.info-container{
+    margin-top:2rem;
+}
+
+.text-container{
+    color:$darkGrey;
+    font-size:1.3rem;
+    padding-left:3rem;
+    font-family:"flamabook";
+}
+
+.contact--text{
+    display: inline;
+}
+
+.contact--img{
+    width:20px;
+}
+
+.img__center{
+    text-align: center;
+    margin:auto;
+}
+
+.img__small{
+    margin:1rem;
+    margin-top:0;
+}
+.img__large{
+   padding:1rem;
+}
+
+.img__xlarge{
+    width:max-content;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
